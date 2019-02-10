@@ -2,11 +2,25 @@
 
 namespace application\core;
 
-class Router
-{
+class Router {
+
+	protected $routes = [];
+	protected $params = [];
 	
 	function __construct() {
-		echo 'Я класс рутер';
+		//
 	}
-	
+
+	public function add() {
+		//
+	}
+
+	public function match() {
+		//
+	}
+
+	public function run() {
+		echo 'start';
+	}
+
 }
